@@ -1,11 +1,9 @@
 version: 0.2
-
 env:
   variables:
     SOLUTION: .\sample.sln
     PACKAGE_DIRECTORY: .\sample_publish
     DOTNET_FRAMEWORK: 4.8
-
 phases:
   build:
     commands:
